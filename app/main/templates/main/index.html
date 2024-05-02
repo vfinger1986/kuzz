@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <p>{{ content }}</p>
+    {% if is_authenticated %}
+        <p>{{ list.0}}</p>
+        <p>{{ dict.first }}</p>
+    {% endif %}
+    
+</body>
+</html>
