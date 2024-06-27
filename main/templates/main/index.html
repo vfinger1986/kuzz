@@ -1,0 +1,30 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block css %}
+     <link href="{% static "deps/css/index.css" %}" rel="stylesheet" >
+{% endblock  %}
+
+
+
+{% block content %}
+<section>
+    <div  class="container">
+        <div class="row">
+            <div id="main" class="col-12 col-md-8 col-lg-5">               
+                <h2 id='title'>
+                    Студия художественной ковки
+                </h2>
+                <h1 id='title2'> "Стальной Узор"
+                </h1>
+                <button id="start-purchase-btn" type="button" class="btn btn-lg">
+                    <a id="start-purchase-link" href="{% url "catalog:catalog" %}">
+                        Наши работы
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock  %}
+

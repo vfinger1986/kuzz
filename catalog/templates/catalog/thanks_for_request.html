@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block css %}
+    <link href="{% static "deps/css/request.css" %}" rel="stylesheet" >
+{% endblock %}
+
+{% block title %}Спасибо за заявку{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div id='thanks' class="row justify-content-center">
+        <div class="col-md-8 col-12 text-center">
+            <h1>Спасибо за вашу заявку!</h1>
+            <p>Мы получили вашу заявку и скоро свяжемся с вами. </p>
+            <a href="{% url 'main:index' %}" class="btn btn-dark">Вернуться на главную</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block footer %}
+{% endblock %}

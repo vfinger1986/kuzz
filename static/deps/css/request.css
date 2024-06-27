@@ -1,0 +1,27 @@
+body {
+    background-color:aliceblue;
+}
+
+#textbefore {
+    margin-top: 70px; 
+}
+
+#request {
+    margin-top: 30px;
+}
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;  
+    flex-shrink: 0;
+    clear: both;
+    position: fixed;
+    
+}
+
+#thanks {
+    margin-top: 100px;
+}

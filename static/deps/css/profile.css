@@ -1,0 +1,12 @@
+body {
+    padding-top: 500px;
+    background-color: #2B2D2E;
+}
+
+#navbar-button {
+    transition: transform 0.3s ease;
+}
+
+#navbar-button:hover {
+    transform: scale(1.05)
+}

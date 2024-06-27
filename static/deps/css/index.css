@@ -1,0 +1,138 @@
+body {
+    background: url("../img/kuz.jpeg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 56px;
+    
+}
+
+#start-purchase-btn {
+    background-color: rgba(75, 29, 13, 0.4);
+    transition: transform 0.3s ease;
+    margin-top: 50px;      
+}
+
+#start-purchase-btn:hover {
+    transform: scale(1.05);
+}
+
+#start-purchase-link {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size:larger;
+
+}
+
+.container h1   {
+    padding-bottom: 30px;
+    color: #f8f8f8;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    width: 700px;
+    line-height: 140%;
+    
+}
+    
+
+#main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.container h2   {
+    padding-bottom: 30px;
+    color: #f8f8f8;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    width: 700px;
+    line-height: 140%;
+    margin-bottom: 0;
+    
+    
+}
+
+.container p   {
+    font-size: larger;
+    padding-bottom: 30px;
+    color: #f8f8f8;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    width: 700px;
+    line-height: 140%;
+    
+}
+
+.footer {
+    margin-bottom: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;  
+    flex-shrink: 0;
+    clear: both;
+    position: fixed;
+    
+}
+
+#footertext {
+    font-size: larger;
+    padding-bottom: 30px;
+    color: #f8f8f8;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    width: 700px;
+    line-height: 140%;
+}
+
+#mapp {
+    width: 700px;
+    height: 400px;
+    [class*="copyrights-pane"] {
+        display: none !important;
+    }
+    
+}
+
+#navbar-button {
+    transition: transform 0.3s ease;
+    color: #f8f8f8;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+#navbar-button:hover {
+    transform: scale(1.05)
+}
+
+#about {
+    left: 0;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+#title{
+    padding-bottom:5px;
+    font-size: 203%;
+}
+
+#textabout{
+    font-size: 133%;
+    margin-bottom: 0;
+
+}
+
+#contacts {
+    font-size: 133%;
+    padding-bottom: 30px;
+    color: #f8f8f8;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    width: 700px;
+    line-height: 140%;
+}
+

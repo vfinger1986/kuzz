@@ -1,0 +1,25 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block css %}
+    <link href="{% static "deps/css/request.css" %}" rel="stylesheet" >
+{% endblock %}
+{% block content%}
+<div class='container'>
+<div class='row mt-4'>
+<h4 id='textbefore' class = 'p-3'>
+        Здесь вы можете оставить заявку на услуги, коротко опишите, что необходимо сделать, и мы свяжемся с вами в ближайшее время для уточнения деталей.
+</h4>  
+<div id='request' class='p-3 col-12 col-md-6 bg-light'>
+<h1>Заявка на услуги</h1>
+{% load crispy_forms_tags %}
+<form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class='btn btn-dark'>Отправить</button>
+</form>
+</div>
+</div>
+</div>
+{% endblock %}
+{% block footer %}
+{% endblock %}

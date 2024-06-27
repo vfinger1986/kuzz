@@ -1,0 +1,75 @@
+body {
+    background-color:aliceblue;
+}
+
+#password {
+    padding-top: 60px;
+    
+}
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;  
+    flex-shrink: 0;
+    clear: both;
+    position: fixed;
+    
+    
+}
+
+#register {
+    margin-top: 100px;
+    
+}
+
+#login {
+    margin-top: 100px; 
+}
+
+#pcd {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+#pr {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#fpb {
+    padding-top:10px;
+}
+
+#prd {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#prc {
+    margin-top: 100px;
+}
+
+#prcm{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#navbar-button {
+    transition: transform 0.3s ease;
+}
+
+#navbar-button:hover {
+    transform: scale(1.05)
+}
+
+#footertext {
+    font-size: larger;
+    color: #302c2c;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    line-height: 140%;
+}
